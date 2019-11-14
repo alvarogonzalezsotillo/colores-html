@@ -76,8 +76,6 @@ function startSearch(corpus){
 
 self.addEventListener("message", (message) =>{
 
-    console.log("Worker: recibo: " + message );
-    
     switch( message.data.type ){
     case "search" :
         startSearch(
