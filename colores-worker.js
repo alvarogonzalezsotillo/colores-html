@@ -1,8 +1,8 @@
 function imposibleDeCompartirEntreWorkerYModule(palabra){
     // https://stackoverflow.com/questions/44118600/web-workers-how-to-import-modules
-    // Este codigo debería poder compartirse con molores.mjs, para que
-    // pudiera generar la página estáticamente desde node js. De momento,
-    // no es posible hacer un worker que sea un módulo es16
+    // Este codigo debería poder compartirse con colores.mjs, para que
+    // pudiera generar la página estáticamente desde nodejs. De momento,
+    // no es posible hacer un worker que sea un módulo de es16, así que uso cortapega.
     const letrasPermitidas = {
         "a": "A",
         "b": "B",
